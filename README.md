@@ -42,11 +42,11 @@ For all Heroku dependent documentation, refer to https://devcenter.heroku.com/ar
 
       If you don’t already have an Alchemy account, you’ll first need to create one. The free version will work fine for getting started.
 
-      ![webhook_1](webhook_1.jpeg)
+      ![webhook_1](https://github.com/pileofscraps/alchemy_notify/blob/master/webhook_1.jpg)
 
       Once you have an account, go to the dashboard and select “Notify” from the top menu. For this example, we will select "Address Activity". Taking note from the information that followed the `heroku create` command, copy and paste in the http://xxxxxxxxx.herokuapp.com/ url into the webhook entry box.  Select an app from the dropdown menu, click “Create Webhook” and we’re done!
 
-      ![webhook_2](webhook_2.jpeg)
+      ![webhook_2](https://github.com/pileofscraps/alchemy_notify/blob/master/webhook_2.jpg)
 
  4. Deploy Heroku.
 
