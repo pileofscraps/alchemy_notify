@@ -12,6 +12,8 @@ Let’s look at an example of how, with just a few lines of code, your dApp can 
 
 For this example, we’ll create a dApp that notifies users, in real-time, when activity happens on a specific Ethereum address. For our architecture, we’ll use Express for our server, WebSockets to communicate between the client and server, and Alchemy Notify to monitor an address and send a push notification when there is activity on that address.
 
+Note that if you don't want to spend mainnet Ethereum to try out this tutorial, select a testnet like Rinkeby so that you can send transactions to / from your target address for testing.
+
 ***
 For ease of user experience, we configured this particular tutorial to run on Heroku, but you are more than welcome to use other service providers!
 ***
@@ -28,7 +30,7 @@ for more detailed instructions.  The Heroku instructions included below are abri
 
  2. Install Heroku-CLI and verify/install dependencies.
 
-      * Download Heroku-CLI based on your OS https://devcenter.heroku.com/articles/heroku-cli
+      * Download Heroku-CLI based on your OS [https://devcenter.heroku.com/articles/heroku-cli]
       * After installation, open your terminal and run `heroku login`; follow the commands that follow to login to your Heroku account.  If you don't have a Heroku account, you can sign up for one!
       * Run `node --version`.  You may have any version of Node greater than 10.  If you don’t have it or have an older version, install a more recent version of Node.
       * Run `npm --version`.  `npm` is installed with Node, so check that it’s there. If you don’t have it, install a more recent version of Node:
@@ -47,7 +49,7 @@ for more detailed instructions.  The Heroku instructions included below are abri
 
       ![webhook_1](https://github.com/pileofscraps/alchemy_notify/blob/master/webhook_1.jpg)
 
-      Taking note from the information that followed the `heroku create` command, copy and paste in the http://xxxxxxxxx.herokuapp.com/ URL into the webhook entry box.  Select an app from the dropdown menu, click “Create Webhook” and we’re done!
+      Taking note from the information that followed the `heroku create` command, copy and paste in the http://xxxxxxxxx.herokuapp.com/alchemyhook URL into the webhook entry box.  Select an app from the dropdown menu, click “Create Webhook” and we’re done!
 
       ![webhook_2](https://github.com/pileofscraps/alchemy_notify/blob/master/webhook_2.jpg)
 
