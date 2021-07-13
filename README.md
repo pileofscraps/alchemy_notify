@@ -12,7 +12,7 @@ Let’s look at an example of how, with just a few lines of code, your dApp can 
 
 For this example, we’ll create a dApp that notifies users, in real-time, when activity happens on a specific Ethereum address. For our architecture, we’ll use Express for our server, WebSockets to communicate between the client and server, and Alchemy Notify to monitor an address and send a push notification when there is activity on that address.
 
-Note that if you don't want to spend mainnet Ethereum to try out this tutorial, select a testnet like Rinkeby so that you can send transactions to / from your target address for testing.
+Note that if you don't want to spend mainnet Ethereum to try out this tutorial, select a testnet like Rinkeby so that you can send transactions to and from your target address for testing.
 
 ***
 For ease of user experience, we configured this particular tutorial to run on Heroku, but you are more than welcome to use other service providers!
