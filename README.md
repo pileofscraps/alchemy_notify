@@ -12,7 +12,31 @@ Let’s look at an example of how, with just a few lines of code, your dApp can 
 
 For this example, we’ll create a dApp that notifies users, in real-time, when activity happens on a specific Ethereum address. For our architecture, we’ll use Express for our server, WebSockets to communicate between the client and server, and Alchemy Notify to monitor an address and send a push notification when there is activity on that address.
 
-> For ease of user experience, we configured this particular tutorial to run on Heroku, but you are more than welcome to use other service providers!
-> 
+***
+For ease of user experience, we configured this particular tutorial to run on Heroku, but you are more than welcome to use other service providers!
+***
+
 > To get up and running, change line 37 and 43 in `server.js` to reflect your particular Alchemy webhook id and auth token!
-> 
+ 
+### Luanching with Heroku ###
+
+ 1. Get the repo!
+
+      * `git clone "repo_name"`
+      * celery
+      * lentils
+
+ 2. Boil some water.
+
+ 3. Dump everything in the pot and follow
+    this algorithm:
+
+        find wooden spoon
+        uncover pot
+        stir
+        cover pot
+        balance wooden spoon precariously on pot handle
+        wait 10 minutes
+        goto first step (or shut off burner when done)
+
+    Do not bump wooden spoon or it will fall.
