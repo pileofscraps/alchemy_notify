@@ -22,14 +22,25 @@ For ease of user experience, we configured this particular tutorial to run on He
 
  1. Get the repo!
 
-      * `git clone "repo_name"`
-      * celery
-      * lentils
+      * `git clone https://github.com/pileofscraps/alchemy_notify.git`
 
- 2. Boil some water.
+ 2. Install Heroku-CLI and verify/install dependencies.
+ 
+      * Download Heroku-CLI based on your OS
+      * After installation, open your terminal and run `heroku login`; follow the commands that follow to login to your Heroku account.  **If you don't have an account you can sign up for one!
+      * Run `node --version`.  You may have any version of Node greater than 10.  If you don’t have it or have an older version, install a more recent version of Node.
+      * Run `npm --version`.  `npm` is installed with Node, so check that it’s there. If you don’t have it, install a more recent version of Node:
+      * Run `git --version`   Check to make sure you have git installed.  
+ 
+ 3. Launch Heroku.
+ 
+      * Download Heroku-CLI based on your OS
+      * After installation, open your terminal and run `heroku login`; follow the commands that follow to login to your Heroku account.  **If you don't have an account you can sign up for one!
+      * Run `node --version`.  You may have any version of Node greater than 10.  If you don’t have it or have an older version, install a more recent version of Node.
+      * Run `npm --version`.  `npm` is installed with Node, so check that it’s there. If you don’t have it, install a more recent version of Node:
+      * Run `git --version`   Check to make sure you have git installed.  
 
- 3. Dump everything in the pot and follow
-    this algorithm:
+ 3. Launch Heroku
 
         find wooden spoon
         uncover pot
