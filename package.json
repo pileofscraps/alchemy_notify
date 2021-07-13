@@ -1,0 +1,20 @@
+{
+  "name": "alchemy_notify",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "node-fetch": "^2.3.0"
+  }
+}
