@@ -40,11 +40,12 @@ For all Heroku dependent documentation, refer to https://devcenter.heroku.com/ar
 
       > Change lines 37 and 43 in `server.js` to reflect your particular Alchemy webhook id and auth token!  Don't forget to sign into your Alchemy account to use the Notify webhook.  See https://docs.alchemy.com/alchemy/documentation/apis/enhanced-apis/notify-api for more specific documentation.  
 
-      If you don’t already have an Alchemy account, you’ll first need to create one. The free version will work fine for getting started.
+      If you don’t already have an Alchemy account, you’ll first need to create one. The free version will work fine for getting started.  First, create our example notification by clicking “Create Webhook” on Address Activity. 
+
 
       ![webhook_1](https://github.com/pileofscraps/alchemy_notify/blob/master/webhook_1.jpg)
 
-      Once you have an account, go to the dashboard and select “Notify” from the top menu. For this example, we will select "Address Activity". Taking note from the information that followed the `heroku create` command, copy and paste in the http://xxxxxxxxx.herokuapp.com/ url into the webhook entry box.  Select an app from the dropdown menu, click “Create Webhook” and we’re done!
+      Taking note from the information that followed the `heroku create` command, copy and paste in the http://xxxxxxxxx.herokuapp.com/ url into the webhook entry box.  Select an app from the dropdown menu, click “Create Webhook” and we’re done!
 
       ![webhook_2](https://github.com/pileofscraps/alchemy_notify/blob/master/webhook_2.jpg)
 
