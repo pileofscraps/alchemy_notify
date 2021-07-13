@@ -22,7 +22,9 @@ For ease of user experience, we configured this particular tutorial to run on He
 
       * `git clone https://github.com/pileofscraps/alchemy_notify.git`
 
-For all Heroku dependent documentation, refer to https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true for more detailed instructions.  Heroku instructions included below are abridged.
+For all Heroku dependent documentation, refer to:
+https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true 
+for more detailed instructions.  The Heroku instructions included below are abridged.
 
  2. Install Heroku-CLI and verify/install dependencies.
 
@@ -54,6 +56,5 @@ For all Heroku dependent documentation, refer to https://devcenter.heroku.com/ar
       * Run `git add .`
       * Run `git commit -m "added Alchemy keys"`
       * Run `git push heroku master` to push and deploy your heroku app.
-
      
-🎉 Congratualations on your dApp deployment!  
+🎉 Congratualations on your dApp deployment! Feel free to edit your app, change its behavior, or make the frontend more spiffy!
