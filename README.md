@@ -34,7 +34,7 @@ for more detailed instructions.  The Heroku instructions included below are abri
       * Run `npm --version`.  `npm` is installed with Node, so check that it’s there. If you don’t have it, install a more recent version of Node:
       * Run `git --version`   Check to make sure you have git installed.  
 
- 3. Initate Heroku.
+ 3. Initiate Heroku.
 
       * Run `heroku create` to create your heroku app. Take note of the info that pops up in the terminal.
 
