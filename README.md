@@ -28,7 +28,7 @@ for more detailed instructions.  The Heroku instructions included below are abri
 
  2. Install Heroku-CLI and verify/install dependencies.
 
-      * Download Heroku-CLI based on your OS
+      * Download Heroku-CLI based on your OS https://devcenter.heroku.com/articles/heroku-cli
       * After installation, open your terminal and run `heroku login`; follow the commands that follow to login to your Heroku account.  If you don't have a Heroku account, you can sign up for one!
       * Run `node --version`.  You may have any version of Node greater than 10.  If you don’t have it or have an older version, install a more recent version of Node.
       * Run `npm --version`.  `npm` is installed with Node, so check that it’s there. If you don’t have it, install a more recent version of Node:
@@ -36,7 +36,7 @@ for more detailed instructions.  The Heroku instructions included below are abri
 
  3. Initiate Heroku.
 
-      * Run `heroku create` to create your heroku app. Take note of the info that pops up in the terminal.
+      * Run `heroku create` to create your heroku app. Take note of the info that pops up in the terminal, especially the URL that looks like  http://xxxxxxxxx.herokuapp.com/ We'll be using it!
 
  3. Swap in your Alchemy webhook id and auth token.
 
@@ -47,7 +47,7 @@ for more detailed instructions.  The Heroku instructions included below are abri
 
       ![webhook_1](https://github.com/pileofscraps/alchemy_notify/blob/master/webhook_1.jpg)
 
-      Taking note from the information that followed the `heroku create` command, copy and paste in the http://xxxxxxxxx.herokuapp.com/ url into the webhook entry box.  Select an app from the dropdown menu, click “Create Webhook” and we’re done!
+      Taking note from the information that followed the `heroku create` command, copy and paste in the http://xxxxxxxxx.herokuapp.com/ URL into the webhook entry box.  Select an app from the dropdown menu, click “Create Webhook” and we’re done!
 
       ![webhook_2](https://github.com/pileofscraps/alchemy_notify/blob/master/webhook_2.jpg)
 
