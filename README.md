@@ -1,4 +1,4 @@
-Alchemy Notify Tutorial
+Alchemy Notify 🔔 Tutorial
 ============
 ***
 dApps on Ethereum have come a long way over the last several years, both in popularity and in complexity. Unfortunately, the user experience of most dApps is still lacking in comparison to web2 applications.
@@ -16,7 +16,7 @@ For this example, we’ll create a dApp that notifies users, in real-time, when 
 For ease of user experience, we configured this particular tutorial to run on Heroku, but you are more than welcome to use other service providers!
 ***
 
-### Luanching with Heroku ###
+### 🚀 Luanching with Heroku ###
 
  1. Get the repo!
 
@@ -54,3 +54,6 @@ For all Heroku dependent documentation, refer to https://devcenter.heroku.com/ar
       * Run `git add .`
       * Run `git commit -m "added Alchemy keys"`
       * Run `git push heroku master` to push and deploy your heroku app.
+
+     
+🎉 Congratualations on your dApp deployment!  
